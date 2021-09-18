@@ -3,7 +3,7 @@
 * @use function: malloc
 */
 char		**ft_strsplit(char *str);
-int			ft_str_to_int(char *str);
+int			ft_atoi(char *str);
 int			ft_check_argv(int argc, char **argv);
 /*
 * ft_get_inputed_refs checks argv, splits it to str, then converts each to int
